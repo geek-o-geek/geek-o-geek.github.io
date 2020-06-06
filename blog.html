@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css"></link>
+    <link rel="stylesheet" href="assets/style.css"></link>
+</head>
+<body>
+    <header class="text-gray-500 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0"  href="index.html">
+            <img src="assets/images/logo.png" alt="geek-o-geek" height="200" width="200">
+            <!-- <span class="ml-3 text-xl">Geek-o-Geek</span> -->
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="pointer mr-5 hover:text-white" href="index.html">Me</a>
+            <a class="pointer mr-5 hover:text-white" href="blog.html">Blog</a>
+            <a class="pointer mr-5 hover:text-white" href="index.html#motivations">Motivations</a>
+            <a class="pointer mr-5 hover:text-white" href="index.html#testimonials">Testimonials</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Mail me
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+    <section class="text-gray-700 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://source.unsplash.com/720x400/?code,javascript" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Javascript</h1>
+                  <p class="leading-relaxed mb-3">Very popular for building UI for web and native apps. With node.js environment, it can be used at serevr side. will teach you about the basics and advanced topics to get through your beautiful coding journey.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="pointer text-green-500 inline-flex items-center md:mb-2 lg:mb-0" href="blogposts/blogTemplate.html">Learn More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://source.unsplash.com/720x400/?code,python" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Python</h1>
+                  <p class="leading-relaxed mb-3">Python is a powerful language. being used in major organizations like Google, Facebook. It has large ecosystem of machine learning libraries and possiblities are endless for doing computer vision, NLP or web app.</p>
+                  <div class="flex items-center flex-wrap">
+                    <a class="pointer text-green-500 inline-flex items-center md:mb-2 lg:mb-0" href='blogposts/blogTemplate.html'>Learn More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://source.unsplash.com/720x400/?algorithm,code" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Algorithms</h1>
+                  <p class="leading-relaxed mb-3">Algorithms are the logical steps needed to solve a particular problem. there are any algorithms related to sorting, hashing, searching. will cover all in this category</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="pointer text-green-500 inline-flex items-center md:mb-2 lg:mb-0" href='blogposts/blogTemplate.html'>Learn More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="text-gray-700 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            
+            <span class="ml-3 text-xl">Geek-O-Stack</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
