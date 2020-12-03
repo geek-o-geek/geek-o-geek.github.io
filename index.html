@@ -9,12 +9,12 @@
     <link rel="icon" href="assets/favicon.ico" sizes="16x16">
 </head>
 <body>
-    <header class="text-gray-500 bg-gray-900 body-font fixed-nav">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header class="text-gray-500 bg-gray-900 body-font fixed-nav" id="menu">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" >
           <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="index.html">
             <img src="assets/images/logo.png" alt="geek-o-geek" height="200" width="200">
           </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center" id="header">
             <a class="pointer mr-5 hover:text-white" href="index.html">Me</a>
             <a class="pointer mr-5 hover:text-white" href="blog.html">Tuts</a>
             <a class="pointer mr-5 hover:text-white" href="index.html#motivations">Motivations</a>
@@ -34,7 +34,7 @@
             </h1>
             <p class="mb-8 leading-relaxed">When programming is passion, things becomes easy and enjoyable. I have experiences in building applications for various domains. Currently, my main area of interest is in App development via Javascript and Machine learning models via python.</p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">My Github Link</button>
+            <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" onclick="goto()">My Github Link</button>
             </div>
           </div>
         </div>
@@ -124,3 +124,9 @@
 </body>
 </html>
 <script type="text/javascript" src="./app.js"></script>
+<script>
+  var goto = function(){
+    var url = "https://github.com/geek-o-geek";
+    window.location = url;
+  }
+</script>
